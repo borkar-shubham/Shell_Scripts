@@ -37,4 +37,22 @@ echo "Enther the two floating numbers to perfotm addition, subtraction & multipl
 read num1 num2
 echo "$num1+$num2" | bc
 echo "$num1-$num2" | bc
-echo "$num1/$num2" | bc
+echo "$num1*$num2" | bc
+#
+#Example-7: Square root of two numbers
+#!/bin/bash
+echo "Enther a number to perfotm square root:"
+read num1
+echo "sqrt( $num1 )" | bc -l
+#
+#Example-8: Cube root of two numbers
+#!/bin/bash
+echo "Enther a number to perfotm cube root:"
+read num1
+echo "( $num1^3 )" | bc -l
+#
+#Example-9: Num1 to the power Num2
+#!/bin/bash
+echo "Enther a two numbers to perfotm num1 to the power num2:"
+read num1 num2
+echo "( $num1^$num2 )" | bc -l
