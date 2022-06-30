@@ -1,0 +1,39 @@
+Sometimes we want to run a command (or group of commands) over and over.   
+This is called iteration, repetition, or looping.   
+The most commonly used shell repetition structure is the for loop
+
+Followings are the various forms of "for loop"
+
+for VARIABLE in 1 2 3 4 5 .. N
+do
+    command1
+    command2
+    commandN
+done
+
+#or
+
+for VARIABLE in file1 file2 file3
+do
+    command1 on $VARIABLE
+    command2
+    commandN
+done
+
+#or
+
+for OUTPUT in $(Linux-Command)
+do
+    command1 on $OUTPUT
+    command2 on $OUTPUT
+    commandN
+done
+
+#or
+
+for VARIABLE in (( EXP1; EXP2; EXP3; ))
+do
+    command1
+    command2
+    command3
+done
