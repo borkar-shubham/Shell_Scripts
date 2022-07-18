@@ -21,3 +21,4 @@ myfn(){
 #this must be give a "readonly variable" error because the function myfn is readonly
 
 #to get all readonly functions, use "readonly -f" in script.
+#to get all built in readonly functions, write "readonly" in script or run directly in shell.
