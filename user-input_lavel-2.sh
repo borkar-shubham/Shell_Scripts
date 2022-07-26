@@ -10,7 +10,7 @@ echo "You have enterd your name as $name"
 #Example-2: Multiple Inputs given by User
 echo "Enter your Name, Sirname and Counrty:"
 read name sirname Counrty
-echo "$name, $sirname, $country"
+echo "Your name is $name $sirname, and your country is $country"
 #
 #
 #Example-3: To put $variable in the same line of echo print attribute without "read" function. 
