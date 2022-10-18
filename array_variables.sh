@@ -1,7 +1,9 @@
-# An array is a variable containing multiple values. Any variable may be used as an array.
-# There is no maximum limit to the size of an array, nor any requirement that 
-# member variables be indexed or assigned contiguously. 
-# Arrays are zero-based: the first element is indexed with the number 0.
+<< comments
+An array is a variable containing multiple values. Any variable may be used as an array.
+There is no maximum limit to the size of an array, nor any requirement that 
+member variables be indexed or assigned contiguously. 
+Arrays are zero-based: the first element is indexed with the number 0.
+comments
 #
 #!/bin/bash
 mobiles=('Samsung' 'Apple' 'OnePlus' 'Nokia' 'HTC')
