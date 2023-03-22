@@ -4,14 +4,15 @@ that will help you to get the understanding of basics shell scripting.
 I have created the individual files separately with topic-wise manner.
 Practice it..learn it..!
 
-
+---
 Variable | Description
-$0 | The filename of the current script.
-$n | These variables correspond to the arguments with which
+|---|---|
+| $0 | The filename of the current script. |
+| $n | These variables correspond to the arguments with which
 a script was invoked. Here n is a positive decimal
 number corresponding to the position of an argument
 (the first argument is $1, the second argument is $2,
-and so on).
+and so on). |
 $# The number of arguments supplied to a script.
 $* All the arguments are double quoted. If a script
 receives two arguments, $* is equivalent to $1 $2.
