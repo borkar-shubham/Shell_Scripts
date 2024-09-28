@@ -2,7 +2,7 @@
 
 #explore READ command : it is used to take input from the terminal.
 #it provides lots of option with arguments .
-read name 
+read name age
 echo "hello ${name} and my $age is infinity"
 ###################
 read 
